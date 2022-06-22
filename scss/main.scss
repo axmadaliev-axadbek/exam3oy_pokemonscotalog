@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import "./fonts";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p,h1,h2,h3{
+    margin: 0!important;
+}
+body{
+    margin: 0;
+    padding: 0 20px;
+    font-family: 'Fira Sans';
+    font-weight: 300;
+    background-color: rgb(24,25,38);
+    color: white;
+}
+.block{
+     row-gap: 30px;
+     column-gap: 30px;
+}
+.card{
+    border: 1px solid white;
+    background-color: transparent;
+    width: 420px;
+    border-radius: 15px;
+    &_img{
+        border-radius: 10px;
+        overflow: hidden;
+        min-height: 386px;
+    }
+    &:hover{
+        box-shadow: 0 0 14px 1px white;
+    }
+}
+.card_img img{
+    width: 100%;
+    object-fit: cover;
+}
+.decription{
+    padding-top: 20px;
+    font-size: 22px;
+    font-family: 'Fira Sans';
+    font-weight: 300;
+}
+.description_id{
+    padding-top: 15px;
+    opacity: 0.6;
+}
+span{
+    color: #00B1E3;
+}
+.title{
+    font-size: 38px;
+    padding-top: 15px;
+    text-align: center; 
+    min-height: 107px;
+}
+.accordion{
+    background: linear-gradient(180deg,rgba(73, 180, 207, 1) 0%, rgba(0, 149, 186, 1)) !important;
+    box-shadow: 5px 5px 25px rgba(0, 177, 227, 0.5)!important;
+    border-radius: 7px;
+    color: white!important;
+    font-size: 22px;
+}
+.accordion:focus{
+    box-shadow: 0 0 0 0;
+}
+.accordion-item{
+    background-color: rgb(24,25,38);
+}
+.nextnum{
+    padding-top: 10px!important;
+}
+.weaknesses{
+    min-height: 99px;
+}
